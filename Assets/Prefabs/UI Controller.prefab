@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &142076
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 483318}
+  - component: {fileID: 11436808}
+  - component: {fileID: 11498512}
+  - component: {fileID: 11499932}
+  m_Layer: 0
+  m_Name: UI Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 419385456094870383, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &483318
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 142076}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11436808
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 142076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e70a615caa5dec64bbd2f335679ecabf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameStates: 0
+  slotMachine: {fileID: 0}
+  settingsButton: {fileID: 0}
+  settingsPanel: {fileID: 0}
+  quantityButton: {fileID: 0}
+  quantityPanel: {fileID: 0}
+  backToSlotButton: {fileID: 0}
+  quantityScrollView: {fileID: 0}
+  quantityMenuScrollBar: {fileID: 0}
+  settingsTitle: {fileID: 0}
+  quitButton: {fileID: 0}
+  quitConfirmation: {fileID: 0}
+  customFolderButton: {fileID: 0}
+  slotCanvas: {fileID: 0}
+  fileNotFoundWindow: {fileID: 0}
+  expiredPanel: {fileID: 0}
+  gameIlumination: {fileID: 0}
+  piracyPanel: {fileID: 0}
+  incorrectPassword: {fileID: 0}
+  cancelPasswordButton: {fileID: 0}
+  randomToggle: {fileID: 0}
+  signUpToggle: {fileID: 0}
+  prizeSpritePrefab: {fileID: 110094, guid: dadb661ca31ac77489b856a262ce78bb, type: 2}
+  prizeInputPrefab: {fileID: 173178, guid: 01a504cfc09cbe1439acec1b6b245e79, type: 2}
+  nameInputField: {fileID: 0}
+  emailInputField: {fileID: 0}
+  phoneInputField: {fileID: 0}
+  passwordInputField: {fileID: 0}
+  signUpMenu: {fileID: 0}
+  fileExplorer: {fileID: 0}
+  imagePattern: {fileID: 0}
+  signUpComplete: 0
+--- !u!114 &11498512
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 142076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b1e6cce19c8f9b498a621a0f1f400ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11499932
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 142076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 491f4fae60f3d1b4ebb0e9995ecba2da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dataPath: 
+  nameInputField: {fileID: 0}
+  emailInputField: {fileID: 0}
+  phoneInputField: {fileID: 0}
+  savePrizeName: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 142076}
+  m_IsPrefabAsset: 1
